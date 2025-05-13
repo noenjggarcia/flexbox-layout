@@ -1,2 +1,2 @@
-# Flexbox Layout
-This is a flexbox layout demo page
+# Git Version Control
+This is a git version demo page for frontend
