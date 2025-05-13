@@ -1,0 +1,32 @@
+body {
+    background: blue;
+    text-align: center;
+    height: 5000px;
+}
+.container {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.custom {
+    background: black;
+    border: 2px dashed red;
+    color: white
+}
+
+.custom:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.custom:focus {
+    background: green;
+}
+
+@media screen and (max-width: 300px) {
+    #custom {
+        border: 2px dashed white;
+    }
+
+}
